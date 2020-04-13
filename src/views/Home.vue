@@ -1,18 +1,18 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Home Party 🤭</h1>
+    <a class="waves-effect waves-light btn-small" href="#">Wave</a>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import M from 'materialize-css/dist/js/materialize.min.js';
 
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
+  components: {},
+  mounted() {
+    M.AutoInit();
   }
-}
+};
 </script>
