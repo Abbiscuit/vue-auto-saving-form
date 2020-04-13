@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mat-container">
     <router-view></router-view>
   </div>
 </template>
@@ -8,4 +8,11 @@
 export default {};
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.mat-container {
+  padding: 16px;
+}
+</style>
