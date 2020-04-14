@@ -11,6 +11,7 @@ export default {};
 <style lang="scss">
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #eceff1;
 }
 .mat-container {
   padding: 16px;
